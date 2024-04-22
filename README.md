@@ -1,13 +1,24 @@
-Cloud computing is one of the major area of research in the field of information Technology of current era. It has got so much of importance
-because of successful exploitation of concept of virtualization and is aimed at providing IT as service to the cloud consumers on demand basis
-with greater flexibility, availability, reliability and scalability.
-In recent time E-governance has gained immense potential in many developing countries and cloud computing has lended much support to
-improve the efficiency and effectiveness of e-governance. Cloud services has attracted the mass consumers across the globe for the availability
-of various services through internet but the negative fact about cloud computing is that they are prone to security threat attacks. One of the major
-concerning security threats is called Distributed Denial of Service attack (DDOS). DDOS attack destroys the ability of the system to provide
-service by overwhelming the bandwidth of network device and saturating the computation resources of service provider. This paper describes
-experimental analysis of impact of DDOS attack on the IaaS configured in cloudsim through Simulation. Through simulation we are enabling
-flood attack on datacenter configured under IaaS in cloudsim and we are evaluating the computational parameters like Memory consumption,
-Storage utilization and Bandwidth consumption of virtual machines. 
+# REPORT
 
-set up cloudsim in your java ide and then add jfreechart library in your jar folder to run this
+Cloud computing stands as a pivotal realm of investigation in contemporary Information Technology. Its significance burgeons due to the adept utilization of virtualization concepts, aiming to furnish IT services to cloud consumers on-demand, offering enhanced flexibility, availability, reliability, and scalability. E-governance, in recent times, has garnered substantial traction in numerous developing nations, with cloud computing playing a pivotal role in augmenting its efficiency and effectiveness. While cloud services allure a global audience with a plethora of offerings accessible via the internet, the caveat lies in their susceptibility to security threats. Notably, Distributed Denial of Service (DDoS) attacks loom large as a predominant security concern. These attacks incapacitate service provision by inundating network bandwidth and overwhelming service providers' computational resources. This paper delineates an experimental examination of the impact of DDoS attacks on Infrastructure as a Service (IaaS) configurations in CloudSim through simulation. By inducing flood attacks on IaaS-configured data centers within CloudSim, we assess key computational parameters such as memory consumption, storage utilization, and bandwidth consumption of virtual machines.
+
+This project involves conducting an experimental analysis by simulating a DDOS attack on Infrastructure as a Service (IaaS) configurations in CloudSim. The goal is to evaluate the impact on computational parameters such as RAM consumption, storage utilization, and bandwidth consumption by virtual machines (VMs) during the attack compared to VMs operating under normal conditions.
+
+This project works in 3 steps:
+
+1. Configure the basic IaaS environment for cloud computing network
+with 4 Virtual Machines (VM) in cloudsim for Analysis of DDOS in cloud
+environment. 
+
+2. Enable execution of instructions to close the previously running
+simulation and enable request to the client for fresh request of simulation of
+implementation of DDOS attack by enabling one of VM as attacker out of 4.
+
+3. Graphical analysis of simulated result on RAM consumed, Storage
+utilization and Bandwidth of each VM.
+
+Finally, we have a graphical analysis of the comparison of RAM consumption, storage utilization, and bandwidth consumption between attack-scenario and normal scenario.
+
+# USAGE
+
+Set up cloudsim in your java ide and then add jfreechart library in your jar folder to run this
